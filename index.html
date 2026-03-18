@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThinkForge</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #0b1020, #111a33);
+      color: white;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin: 0 0 12px;
+      letter-spacing: 1px;
+    }
+
+    .tagline {
+      font-size: 26px;
+      color: #c7d2fe;
+      margin: 0 0 20px;
+    }
+
+    .description {
+      max-width: 760px;
+      font-size: 20px;
+      line-height: 1.6;
+      color: #d1d5db;
+      margin-bottom: 36px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+
+    .btn {
+      padding: 14px 28px;
+      border: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    .btn-think {
+      background: #22c55e;
+      color: white;
+    }
+
+    .btn-enroll {
+      background: #3b82f6;
+      color: white;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      padding: 24px;
+      text-align: left;
+      backdrop-filter: blur(6px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .card p {
+      margin-bottom: 0;
+      color: #d1d5db;
+      line-height: 1.5;
+    }
+
+    .footer {
+      text-align: center;
+      color: #94a3b8;
+      padding: 30px 20px 50px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>ThinkForge</h1>
+    <p class="tagline">Think better. Think smarter.</p>
+    <p class="description">
+      ThinkForge builds software, hardware, and AI chips for future innovators.
+      A place to think, create, and build the future.
+    </p>
+
+    <div class="buttons">
+      <button class="btn btn-think" onclick="alert('Start Thinking page coming soon!')">
+        Start Thinking
+      </button>
+      <button class="btn btn-enroll" onclick="alert('Enroll page coming soon!')">
+        Enroll
+      </button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>What We Build</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Software</h3>
+        <p>Apps, platforms, tools, and AI systems that help people learn, build, and grow.</p>
+      </div>
+      <div class="card">
+        <h3>Hardware</h3>
+        <p>Devices and machines designed to turn ideas into real inventions.</p>
+      </div>
+      <div class="card">
+        <h3>AI Chips</h3>
+        <p>Future technology for faster, smarter, and more powerful computing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>ThinkForge Mission</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Think</h3>
+        <p>Solve problems, learn logic, and sharpen your mind.</p>
+      </div>
+      <div class="card">
+        <h3>Create</h3>
+        <p>Turn ideas into projects, products, and startups.</p>
+      </div>
+      <div class="card">
+        <h3>Build</h3>
+        <p>Make the future with technology, creativity, and teamwork.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    © 2026 ThinkForge. Built by Tengwen.
+  </div>
+</body>
+</html>
